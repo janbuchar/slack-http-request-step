@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Paper plane "send" glyph, centered -->
+  <g fill="#FFFFFF">
+    <!-- main body of the plane -->
+    <path d="M392 140 L150 270 L236 300 L368 188 L268 318 L300 392 Z"/>
+    <!-- left wing fold (slightly translucent for depth) -->
+    <path d="M236 300 L236 372 L286 322 Z" fill="#DBEAFE"/>
+  </g>
+</svg>
