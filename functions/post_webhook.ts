@@ -102,7 +102,7 @@ export default SlackFunction(
 
       if (!res.ok) {
         return {
-          error: `Request returned non-2xx status: ${res.status}`,
+          error: `Request returned non-2xx status: ${res.status}: ${responseBody}`,
           outputs: { status: res.status, response_body: responseBody },
         };
       }
